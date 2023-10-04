@@ -8,7 +8,6 @@ from pandas import read_csv
 df = pd.read_csv('AMD.csv')
 
 # vẽ bảng 
-
 df.plot(figsize=(10, 5))
 plt.title('AMD', fontsize = 16)
 plt.ylabel('Price', fontsize=14)
